@@ -1,0 +1,260 @@
+NOTAS EXPLICATIVAS - Atualizadas em 05/07/2021
+
+1) Constam servidores(as) ativos(as) da Administra��o Direta na data de gera��o da base: admitidos(as), contratados(as) por tempo determinado, efetivos(as), em comiss�o e requisitados(as).
+
+2) Explica��es sobre os campos da base:
+
+	CAMPO			DESCRI��O
+
+	NOME			Nome do(a) servidor(a)
+	CARGO_BASICO		Cargo/fun��o base do(a) servidor(a)
+	REF_CARGO_BAS		Padr�o, Refer�ncia ou S�mbolo do cargo/fun��o base do(a) servidor(a)
+	SEGMENTO		Segmentos dos Quadros de Pessoal dos N�veis B�sico e M�dio; Disciplinas/Forma��es dos Quadros de Pessoal de N�vel Superior, de Analistas da Administra��o P�blica Municipal e de Profissionais de Engenharia, Arquitetura, Agronomia e Geologia; Atividades do Quadro dos Profissionais de Gest�o Governamental; Classes do Quadro de Pessoal da Educa��o; Naturezas do Quadro do Pessoal da Administra��o Tribut�ria; Especialidades/Disciplinas/Atividades/Segmentos do Quadro da Sa�de
+	GRUPO			Quadro funcional a qual o cargo do(a) servidor(a) pertence
+	SUBGRUPO		N�vel do cargo do(a) servidor(a) dentro do Grupo
+	ESCOL_CARGO_BASICO	Grau de escolaridade m�nimo exigido para o provimento do cargo/fun��o base
+	CARGO_COMISSAO		Nomea��o ou designa��o para cargos/fun��es de encarregatura, chefia, dire��o, supervis�o, coordena��o ou assist�ncia/assessoramento
+	REF_CARGO_COM		Indica��o da posi��o na escala de cargos/fun��es que comportam nomea��o/designa��o em comiss�o
+	ESCOL_CARGO_COMISSAO	Grau de escolaridade m�nimo exigido para o provimento do cargo/fun��o em comiss�o
+	DATA_INICIO_EXERC	Data do in�cio de exerc�cio do(a) servidor(a) no v�nculo atual
+	REL_JUR_ADM		Rela��o jur�dico-administrativa do(a) servidor(a)
+	SECRET_SUBPREF		Secretaria ou Subprefeitura onde o(a) servidor(a) � lotado(a)
+	SETOR			Unidade de lota��o do(a) servidor(a)
+	ORGAO_EXT		�rg�o de cess�o junto � Administra��o P�blica Federal, Estadual ou Municipal, de investidura em mandato de dirigente de entidade sindical ou classista, de exerc�cio de mandato eletivo ou de afastamento para as organiza��es sociais
+	SEXO			Sexo do(a) servidor(a)
+	ANO_NASCIMENTO		Ano de nascimento do(a) servidor(a)
+	RACA			Informa��o autodeclarat�ria e n�o obrigat�ria de ra�a ou cor do(a) servidor(a), segundo o sistema classificat�rio do Instituto Brasileiro de Geografia e Estat�stica (IBGE)
+	DEFICIENTE		Informa��o autodeclarat�ria e n�o obrigat�ria de defici�ncia
+
+3) Grupos e Subgrupos:
+
+	- AGENTE POLITICO: Agente Pol�tico - Lei Org�nica do Munic�pio
+		
+		- PREFEITO: Prefeito(a)
+		- VICE PREFEITO: Vice-Prefeito(a)
+
+	- ATIV ARTISTICA RGPS: Quadro de Atividades Art�sticas (Regime Geral de Previd�ncia Social) - Lei n� 8.401/1976 e Lei n� 9.168/1980
+
+		- CARGO EM COMISSAO: Cargo em Comiss�o
+
+	- ATIVID ARTISTICA: Quadro das Atividades Art�sticas - Lei n� 8.401/1976 e Lei n� 9.168/1980
+
+		- ATIVID ARTISTICA: Atividades Art�sticas
+		- CARGO EM COMISSAO: Cargo em Comiss�o
+
+	- EDUCACAO: Quadro do Ensino Municipal - Lei n� 8.183/1974
+
+		- DOCENTE: Docente do Ensino Municipal
+
+	- NAO SERVIDORES: N�o servidores da Administra��o Direta - Decreto Estadual n� 65.096/2020 e Lei n� 13.562/2003
+
+		- ASSISTENCIA MILITAR: Integrantes da Pol�cia Militar do Estado de S�o Paulo que prestam Assessoria Policial-Militar
+		- REQUISITADO: Servidores de outros �rg�os cedidos � Administra��o Direta que n�o titularizam cargos em comiss�o
+
+	- PCCS: Quadro de Pessoal de N�vel B�sico, M�dio e Superior da Prefeitura do Munic�pio de S�o Paulo - Lei n� 13.652/2003, Lei n� 13.748/2004 e Lei n� 14.591/2007
+
+		- BASICO: N�vel B�sico
+		- MEDIO: N�vel M�dio
+		- SUPERIOR: N�vel Superior
+
+	- QAA: Quadro de Analistas da Administra��o P�blica Municipal - Lei n� 16.119/2015
+
+		- SUPERIOR: N�vel Superior
+
+	- QAV: Quadro dos Agentes Vistores - Lei n� 16.417/2016
+
+		- SUPERIOR: N�vel Superior
+
+	- QEAG: Quadro de Profissionais de Engenharia, Arquitetura, Agronomia e Geologia - Lei n� 16.414/2016
+
+		- SUPERIOR: N�vel Superior
+
+	- QGC: Quadro da Guarda Civil Metropolitana - Lei n� 13.768/2004
+
+		- QGC: Guarda Civil Metropolitana
+
+	- QPA: Quadro dos Profissionais da Administra��o - Lei n� 11.511/1994
+
+		- BASICO: N�vel B�sico
+		- CARGO EM COMISSAO: Cargo em Comiss�o
+		- MEDIO: N�vel M�dio
+		- MEDIO TECNICO: N�vel M�dio T�cnico
+		- SUPERIOR: N�vel Superior
+
+	- QPAT: Quadro do Pessoal da Administra��o Tribut�ria do Munic�pio de S�o Paulo - Lei n� 15.510/2011
+
+		- SUPERIOR: N�vel Superior
+
+	- QPCEL: Quadro dos Profissionais da Cultura, Esporte e Lazer - Lei n� 11.951/1995
+
+		- MEDIO: N�vel M�dio
+		- SUPERIOR: N�vel Superior
+
+	- QPDU: Quadro dos Profissionais do Desenvolvimento Urbano - Lei n� 12.568/1998
+
+		- BASICO: N�vel B�sico
+		- SUPERIOR: N�vel Superior
+
+	- QPE: Quadros dos Profissionais de Educa��o - Lei n� 11.229/1992 e Lei n� 11.434/1993
+
+		- APOIO: Apoio do Ensino Municipal
+		- CARGO EM COMISSAO: Cargo em Comiss�o
+		- DOCENTE: Docente do Ensino Municipal
+
+	- QPE L. 14660/07 RGPS - Quadros dos Profissionais de Educa��o (Regime Geral de Previd�ncia Social) - Lei n� 14.660/2007
+
+		- CARGO EM COMISSAO: Cargo em Comiss�o
+
+	- QPE LEI 14660/07: Quadros dos Profissionais de Educa��o - Lei n� 14.660/2007
+
+		- APOIO BASICO: Apoio B�sico do Ensino Municipal 
+		- APOIO MEDIO: Apoio M�dio do Ensino Municipal
+		- CARGO EM COMISSAO: Cargo em Comiss�o
+		- DOCENTE: Docente do Ensino Municipal
+		- GESTOR: Gestor Educacional
+
+	- QPF: Quadros dos Profissionais da Fiscaliza��o - Lei n� 12.477/1997
+
+		- MEDIO: N�vel M�dio
+		- SUPERIOR: N�vel Superior
+
+	- QPG: Quadro dos Profissionais da Guarda Civil Metropolitana - Lei n� 11.715/1995
+
+		- QPG: Guarda Civil Metropolitana
+
+
+	- QPGG: Quadro dos Profissionais de Gest�o Governamental - Lei n� 16.193/2015
+
+		- SUPERIOR: N�vel Superior
+
+	- QPP: Quadro dos Profissionais da Promo��o Social - Lei n� 11.633/1994
+
+		- SUPERIOR: N�vel Superior
+
+	- QPS: Quadro dos Profissionais da Sa�de - Lei n� 11.410/1993
+
+		- BASICO: N�vel B�sico
+		- MEDIO: N�vel M�dio
+		- MEDIO TECNICO: N�vel M�dio T�cnico
+		- SUPERIOR: N�vel Superior
+
+	- QPS LEI 14713/08: Quadro dos Profissionais da Sa�de - Lei n� 14.713/2008
+
+		- MEDIO: N�vel M�dio
+		- MEDIO TECNICO: N�vel M�dio T�cnico
+		- SUPERIOR: N�vel Superior
+		
+	- QS: Quadro da Sa�de da Prefeitura do Munic�pio de S�o Paulo - Lei n� 16.122/2015
+
+		- BASICO: N�vel B�sico
+		- MEDIO: N�vel M�dio
+		- SUPERIOR: N�vel Superior
+				
+	- QTG: Quadro T�cnico dos Profissionais Guarda Civil Metropolitana - Lei n� 16.239/2015
+
+		- QTG: Guarda Civil Metropolitana
+
+	- QUADRO GERAL: Quadro Geral de Pessoal da Prefeitura do Munic�pio de S�o Paulo - Lei n� 10.430/1988
+
+		- MEDIO: N�vel M�dio
+		- OPERACIONAL: N�vel Operacional
+
+	- QUADRO PRM: Quadro da Procuradoria Geral do Munic�pio - Lei n� 10.182/1986
+
+		- PROCURADOR: Procurador do Munic�pio
+
+4) Descri��es das Refer�ncias dos Cargos em Comiss�o:
+
+	- AA: Cargos de Provimento em Comiss�o do Quadro de Atividades Art�sticas
+	- ATC: Fun��es de Confian�a do Quadro do Pessoal da Administra��o Tribut�ria do Munic�pio de S�o Paulo
+	- CA: Corregedor(a) Adjunto(a)
+	- CAD: Controlador(a) Adjunto(a)
+	- CG: Corregedor(a) Geral
+	- CHG: Assessor(a) Executivo(a)/Chefe(a) de Gabinete/Chefe(a) de Gabinete do(a) Prefeito(a)
+	- DAI: Dire��o e Assessoramento Intermedi�rio
+	- DAS: Dire��o e Assessoramento Superior
+	- FG: Fun��es Gratificadas
+	- FGC: Fun��es Gratificadas do Quadro T�cnico dos Profissionais Guarda Civil Metropolitana
+	- PRA: Fun��es da Procuradoria Geral do Munic�pio
+	- Q5: Diretor(a) de Creche
+	- QPE: Cargos de Provimento em Comiss�o/Designa��es para Cargos Efetivos do Quadro dos Profissionais de Educa��o
+	- SAD: Secret�rio(a)-Adjunto(a)/Secret�rio(a) Executivo(a) Adjunto(a)
+	- SBP: Subprefeito(a)
+	- SM: Controlator(a) Geral do Munic�pio/Secret�rio(a) Especial/Secret�rio(a) Executivo(a)/Secret�rio(a) Municipal
+
+5) Rela��es Jur�dico-Administrativas:
+
+	- ADMTIDO: Admitido(a) nos termos da Lei n� 9.160/1980
+	- CARGO ELETIVO: Agente Pol�tico(a) com mandato eletivo nos termos da Lei Org�nica do Munic�pio
+	- CONTR TEMPO DETERM: Contrato por Tempo Determinado nos termos da Lei n� 10.793/1989
+	- EFETIVO: Nomea��o por Concurso P�blico nos termos da Lei n� 8.989/1979
+	- EM COMISSAO: Livre Provimento em Comiss�o nos termos da Lei n� 8.989/1979
+	- REQUISITADO: Requisitado(a) de Outros �rg�os nos termos Decreto Estadual n� 65.096/2020 (Assessoria Policial-Militar) e Lei n� 13.562/2003 (cedidos que n�o titularizam cargos em comiss�o)
+
+6) Rela��o de Cargos em Comiss�o destinados � extin��o na vac�ncia (Rela��o Jur�dico-Administrativa "EM COMISSAO"):
+
+	CARGO							REFER�NCIA
+
+	ENCARREGADO GERAL EQUIP T MUNIC				AA-01
+	ILUMINADOR CENICO					AA-03
+	OPERADOR EQUIPAMENTO ELETRONICOS			AA-03
+	PROJECIONISTA						AA-03
+	SONOPLASTA						AA-03
+	TECNICO DE MAQUINAS DE PALCO				AA-03
+	TECNICO MAQUINAS DE PALCO				AA-03
+	ENCARREGADO GERAL CENOTECNICA				AA-04
+	ARQUIVISTA						AA-06
+	ARQUIVISTA MUSICAL					AA-06
+	INSTRUMENTISTA MONITOR ORQUESTRA			AA-10
+	MESTRE BALE DA CIDADE S�O PAULO				AA-11
+	PROFESSOR DE MUSICA					AA-11
+	ASSISTENTE ARTISTICO DE ESCOLA DE ARTE			AA-17
+	PESQUISADOR ASSUNTOS CULTURAIS				DAS10
+	DIRETOR DE CRECHE					Q5
+	INSPETOR DE ALUNOS					QPE03A
+	INSPETOR DE ALUNOS					QPE03E
+	AUXILIAR ADMINISTRATIVO DE ENSINO			QPE07A
+	AUXILIAR ADMINISTRATIVO DE ENSINO			QPE07E
+	AUXILIAR DE SECRETARIA					QPE07A
+	AUXILIAR DE SECRETARIA					QPE07E
+	ASSISTENTE DE ATIVIDADES ARTISTICAS			QPE13A
+	PROFESSOR DE 1 GRAU NIVEL II CAT 2			QPE13A
+	PROFESSOR DE 1 GRAU NIVEL II CAT 2			QPE13D
+	PROFESSOR DE 1 GRAU NIVEL II CAT 3			QPE14A
+	PROFESSOR DE 1 GRAU NIVEL II CAT 3			QPE14B
+	PROFESSOR DE 1 GRAU NIVEL II CAT 3			QPE14C
+	PROFESSOR DE 1 GRAU NIVEL II CAT 3			QPE14E
+	PROFESSOR DE 2 GRAU					QPE14A
+	PROFESSOR SUBSTITUTO DE 1 GRAU NIVEL I CAT 1		QPE11A
+	PROFESSOR SUBSTITUTO DE 1 GRAU NIVEL I CAT 1		QPE11D
+	PROFESSOR SUBSTITUTO DE 1 GRAU NIVEL I CAT 3		QPE14A
+	PROFESSOR SUBSTITUTO DE 1 GRAU NIVEL I CAT 3		QPE14B
+	PROFESSOR SUBSTITUTO DE 1 GRAU NIVEL I CAT 3		QPE14C
+	PROFESSOR SUBSTITUTO DE 1 GRAU NIVEL I CAT 3		QPE14D
+	PROFESSOR SUBSTITUTO DE EDUCA��O INFANTIL CAT 1		QPE11A
+	PROFESSOR SUBSTITUTO DE EDUCA��O INFANTIL CAT 3		QPE14A
+	PROFESSOR SUBSTITUTO DE EDUCA��O INFANTIL CAT 3		QPE14C
+	PROFESSOR SUBSTITUTO DE EDUCA��O INFANTIL CAT 3		QPE14D
+
+7) Rela��o de Cargos em Comiss�o destinados � extin��o na vac�ncia (Rela��o Jur�dico-Administrativa "ADMITIDO" ou "EFETIVO"):
+
+	CARPINTEIRO DE CENA					AA-01
+	ILUMINADOR CENICO					AA-03
+	MAQUIADOR E PELUQUEIRO					AA-03
+	TECNICO MAQUINAS DE PALCO				AA-03
+	CANTOR DE CORAL						AA-11
+	PROFESSOR DE DANCA					AA-11
+	PROFESSOR DE ORQUESTRA					AA-11
+	PROFESSOR DE QUARTETO DE CORDAS				AA-11
+	PESQUISADOR ASSUNTOS CULTURAIS				DAS10
+	INSPETOR DE ALUNOS					QPE03A
+	AUXILIAR ADMINISTRATIVO DE ENSINO			QPE07A
+	AUXILIAR DE SECRETARIA					QPE07A
+
+8) Outras observa��es:
+
+	- As Fun��es Gratificadas (refer�ncias FG) n�o devem ser consideradas como cargos em comiss�o, por se tratarem de fun��es correspondentes a of�cios e ocupa��es de n�vel elementar e m�dio, necess�rias � execu��o de determinada obra ou servi�o.
+
+	- As designa��es para cargos efetivos (COORDENADOR PEDAGOGICO, DIRETOR DE ESCOLA e SUPERVISOR ESCOLAR - refer�ncias QPE) n�o devem ser consideradas como cargos em comiss�o, por se tratarem de substitui��es nos respectivos cargos efetivos correspondentes.
+
+	- N�mero de servidores(as) que tiveram dados removidos por cumprimento de ordem judicial ou por outros motivos de seguran�a: 2
